@@ -407,9 +407,110 @@ body{
     color: #222;
 }
 /*----------------------
-       Header
+       contact
 ----------------------*/
+.contact-section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+    /* padding-left: 60px; */
+}
+.contact-container{
+    display: flex;
+    width: 70%;
+    height: 70%;
+    background-color: #fff;
+    box-shadow: 1px 15px 35px #000;
+}
+.contact-left{
+    flex:1;
+    background-color: #fff;
+    padding: 60px;
+}
+.contact-left>p{
+    margin-top: 10px;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+.contact-left .contact-info{
+    display: flex;
+    align-items: center;
+    margin: 30px;
 
+}
+.contact-left .contact-info i{
+    padding: 15px;
+    font-size: 27px;
+}
+.contact-left .contact-info p{
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+.contact-right{
+    flex:1;
+    align-items: center;
+    background-color: #f79041;
+    flex-direction: column;
+    clip-path: polygon(100% 0,100% 100%, 0 100%, 0 38% ,4% 35%, 0 32%, 0 0);
+}
+.contact-right form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+.contact-right form input::placeholder,
+.contact-right form textarea::placeholder
+{
+    text-transform: uppercase;
+    font-size: 17px;
+    color: #fff;
+}
+.contact-right form input{
+    height: 45px;
+    width: 80%;
+    background-color: transparent;
+    border: 2px solid #fff;
+    padding: 15px;
+    margin: 25px;
+    border-radius: 5px;
+    color: white;
+}
+.contact-right form input:focus,
+.contact-right form textarea:focus{
+    outline: none;
+}
+.contact-right form textarea{
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    width: 80%;
+    padding: 15px;
+    margin: 25px;
+    color: white;
+    resize: none;
+}
+
+.contact-right form button{
+    width: 150px;
+    height: 45px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 20px;
+    transition: all .3s ease;
+}
+
+.contact-right form button:hover{
+    background-color: #222;
+    border: 2px solid #222;
+}
 /*----------------------
        Header
 ----------------------*/
