@@ -1,49 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="fonts/fonts.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
+    
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.0/animate.compat.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
     <title>Heaven Cars</title>
 </head>
+
 <body>
     <header>
         <div class="start-menu">
             <div class="menu-closed">
-               <i class="icon-menu open-menu" ></i>
-            </div> 
-               <div class="menu-social">
-                   <a href="#" target="_blank"><i class="icon-facebook"></i>Facebook</a>
-                   <a href="#" target="_blank"><i class="icon-instagram"></i>Instagram</a>
-                   <a href="#" target="_blank"><i class="icon-youtube"></i>Youtube</a>
-               </div>
+                <i class="icon-menu open-menu"></i>
+            </div>
+            <div class="menu-social">
+                <a href="#" target="_blank"><i class="icon-facebook"></i>Facebook</a>
+                <a href="#" target="_blank"><i class="icon-instagram"></i>Instagram</a>
+                <a href="#" target="_blank"><i class="icon-youtube"></i>Youtube</a>
+            </div>
         </div>
         <nav class="main-nav">
             <h2>Menu</h2>
             <i class="icon-cross close-menu"></i>
             <ul class="nav-menu">
-                    <a href="#home"><li>Home</li></a>
-                    <a href="#about"><li>About</li></a>
-                    <a href="#offers"><li>Offers</li></a>
-                    <a href="#gallery"><li>Gallery</li></a>
-                    <a href="#contact"><li>Contact</li></a>
+                <a href="#home">
+                    <li>Home</li>
+                </a>
+                <a href="#about">
+                    <li>About</li>
+                </a>
+                <a href="#offers">
+                    <li>Offers</li>
+                </a>
+                <a href="#gallery">
+                    <li>Gallery</li>
+                </a>
+                <a href="#contact">
+                    <li>Contact</li>
+                </a>
             </ul>
         </nav>
     </header>
+    <div class="load">
+        <hr />
+        <hr />
+        <hr />
+        <hr />
+    </div>
     <section class="heading-section" id="home">
-        <img src="img/Car-Transparent.png"alt="Car">
+        <img src="img/Car-Transparent.png" alt="Car" class="animated fadeIn delay-1s">
         <div class="left-heading">
             <div class="heading-text">
                 <h2>Driving you to the moon and back</h2>
-                <h1>Heaven <span>Cars</span></h1>
+                <h1 class="animated fadeInLeft delay-2s">Heaven <span>Cars</span></h1>
                 <div></div>
-                <h2>Best Car Award 2020</h2>
-                <h3>If you pay for it, it must be the best then</h3>
-                <a href="#offers">Choose Now</a>
+                <h2 class="animated fadeInLeft delay-2s">Best Car Award 2020</h2>
+                <h3 class="animated fadeInLeft delay-2s">If you pay for it, it must be the best then</h3>
+                <a href="#offers" class="animated zoomIn delay-2s">Choose Now</a>
             </div>
         </div>
         <div class="right-heading"></div>
@@ -53,20 +94,23 @@
         <div class="right-about"></div>
         <div class="about-content">
             <div>
-                <h2>About<br>Heaven Cars<span>.</span></h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus autem mollitia exercitationem hic nihil nam unde illo ea, cum quam non, dolorem ex veritatis nemo voluptatibus quidem? Ipsa illo et quos, repellendus illum consectetur porro facere nemo totam voluptates laborum amet aut debitis earum quisquam?</p>
+                <h2 class=" wow animated fadeInLeft">About<br>Heaven Cars<span>.</span></h2>
+                <p class=" wow animated fadeInLeft delay-1s">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ducimus autem mollitia exercitationem hic nihil nam unde illo ea, cum quam non, dolorem ex veritatis
+                    nemo voluptatibus quidem? Ipsa illo et quos, repellendus illum consectetur porro facere nemo totam
+                    voluptates laborum amet aut debitis earum quisquam?</p>
             </div>
             <div>
-                <img src="img/fullLogo.png" alt="Logo">
+                <img src="img/fullLogo.png" alt="Logo" class=" wow animated fadeInRight delay-1s">
             </div>
         </div>
     </section>
     <section class="offers-section" id="offers">
         <div class="offers-heading">
-        <h2>Start Engine <br><span>now</span>.</h2>
+            <h2 class=" wow animated bounce delay-1s">Start Engine <br><span>now</span>.</h2>
         </div>
         <div class="offers">
-            <div class="pricing">
+            <div class="pricing wow animated fadeInLeft ">
                 <div>
                     <h3>City car</h3>
                     <p>4 seats</p>
@@ -75,7 +119,7 @@
                     <p><span>$</span>49</p>
                 </div>
             </div>
-            <div class="pricing">
+            <div class="pricing wow animated pulse infinite delay-2s">
                 <div>
                     <h3>Limousin</h3>
                     <p>5 seats</p>
@@ -84,7 +128,7 @@
                     <p><span>$</span>79</p>
                 </div>
             </div>
-            <div class="pricing">
+            <div class="pricing wow animated fadeInRight">
                 <div>
                     <h3>SUV</h3>
                     <p>7 seats</p>
@@ -102,96 +146,99 @@
             <a href="#" data-filter="city-car" class="button ">City-car</a>
             <a href="#" data-filter="suv" class="button ">SUV</a>
         </div>
-        <div class="cars-gallery">
+        <div class="cars-gallery wow animated fadeInLeft delay-1s">
             <div class="filter limousin">
-            <a href="img/img1.jpg" class="gallery-image">
-            <img src="img/img1.jpg">
-            </a>
-            </div>
-            <div class="filter limousin">
-                <a href="img/img2.jpg" class="gallery-image">
-                <img src="img/img2.jpg">
+                <a href="img/img1.jpg" class="gallery-image">
+                    <img src="img/img1.jpg">
                 </a>
             </div>
             <div class="filter limousin">
-            <a href="img/img3.jpg" class="gallery-image">
-            <img src="img/img3.jpg">
-            </a>
+                <a href="img/img2.jpg" class="gallery-image">
+                    <img src="img/img2.jpg">
+                </a>
+            </div>
+            <div class="filter limousin">
+                <a href="img/img3.jpg" class="gallery-image">
+                    <img src="img/img3.jpg">
+                </a>
             </div>
             <div class="filter limousin">
                 <a href="img/img4.jpg" class="gallery-image">
-                <img src="img/img4.jpg">
+                    <img src="img/img4.jpg">
                 </a>
             </div>
             <div class="filter suv">
                 <a href="img/img5.jpg" class="gallery-image">
-                <img src="img/img5.jpg">
+                    <img src="img/img5.jpg">
                 </a>
             </div>
             <div class="filter city-car">
                 <a href="img/img6.jpg" class="gallery-image">
-                <img src="img/img6.jpg">
+                    <img src="img/img6.jpg">
                 </a>
             </div>
             <div class="filter city-car">
                 <a href="img/img7.jpg" class="gallery-image">
-                <img src="img/img7.jpg">
+                    <img src="img/img7.jpg">
                 </a>
             </div>
             <div class="filter suv">
                 <a href="img/img8.jpg" class="gallery-image">
-                <img src="img/img8.jpg">
+                    <img src="img/img8.jpg">
                 </a>
             </div>
             <div class="filter suv">
                 <a href="img/img9.jpg" class="gallery-image">
-                <img src="img/img9.jpg">
+                    <img src="img/img9.jpg">
                 </a>
             </div>
         </div>
     </section>
     <section class="contact-section" id="contact">
         <div class="contact-container">
-            <div class="contact-left">
+            <div class="contact-left wow animated fadeInLeft delay-1s">
                 <h2>Let's get in touch</h2>
                 <p>We are open for any suggestions or just to have a chat</p>
                 <div class="contact-info">
-                    <i class="icon-phone"></i><p>
+                    <i class="icon-phone"></i>
+                    <p>
                         +91 12345 67890<br>
                         +91 67890 12345
                     </p>
                 </div>
                 <div class="contact-info">
-                    <i class="icon-envelop"></i><p>
-                        contact@gmail.com <br> 
+                    <i class="icon-envelop"></i>
+                    <p>
+                        contact@gmail.com <br>
                         support@gmail.com
                     </p>
                 </div>
                 <div class="contact-info">
-                    <i class="icon-location2"></i><p>
+                    <i class="icon-location2"></i>
+                    <p>
                         ABC Road <br> Bangalore
                     </p>
                 </div>
             </div>
-            <div class="contact-right">
+            <div class="contact-right wow animated fadeInRight delay-1s">
                 <form action="https://submit-form.com/fEX8zztiYYKsPeFxhvEsc" target="_self">
-                   
-                    <input type="text" name="name" id="name" placeholder="full name" >
-                    
+
+                    <input type="text" name="name" id="name" placeholder="full name">
+
                     <input type="email" name="mail" id="mail" placeholder="email">
-                    
-                    <textarea name="idMessage" id="message" rows=5 placeholder="message" ></textarea>
-                    
+
+                    <textarea name="idMessage" id="message" rows=5 placeholder="message"></textarea>
+
                     <button>Submit</button>
                 </form>
             </div>
         </div>
     </section>
-     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-     <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <script src="script.js"></script>
 </body>
+
 </html>
-
-
-
-
