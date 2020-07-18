@@ -1,5 +1,5 @@
 # Heaven_Cars
-A website design for a car rental company.
+Website design for a car rental company.
 
 ## Screenshots
 <img src="/screenshots/Screenshot (24).png">
