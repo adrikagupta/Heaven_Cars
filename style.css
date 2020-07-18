@@ -338,6 +338,10 @@ body {
     -moz-transition: all .3s ease;
     -ms-transition: all .3s ease;
     -o-transition: all .3s ease;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
 }
 
 .heading-text a:hover {
@@ -360,6 +364,7 @@ body {
 }
 
 .about-content {
+    margin-left: 30px;
     position: absolute;
     top: 50%;
     left: 50%;

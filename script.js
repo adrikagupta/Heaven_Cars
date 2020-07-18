@@ -62,6 +62,7 @@ $(function () {
 $(document).ready(function () {
     $('.button').click(function (e) {
         e.preventDefault();
+        $(this).addClass('active').siblings().removeClass('active')
         var name = $(this).attr('data-filter');
         if (name == 'all') {
             $('.filter').show(400)
@@ -72,6 +73,7 @@ $(document).ready(function () {
 
         }
     })
+    
 })
 
 
